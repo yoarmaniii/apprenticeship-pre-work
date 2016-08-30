@@ -1,0 +1,15 @@
+
+public class Public {
+	
+
+	public static void main (String[] args) {
+ int myNumber = 77;
+ short myShort = 847;
+ long myLong = 9797;
+ 
+		 
+		System.out.println(myNumber);
+		System.out.println(myShort);
+		System.out.println(myLong);
+	}
+}

@@ -1,0 +1,17 @@
+
+public class reverse {
+	public static void main(String[] args) {
+		int myInt = 8;
+		
+		String text = "Hey mommy! Look Im doing it";
+		
+		System.out.println(text);
+		
+		String blank = " ";
+		
+		String name = "Armani";
+		
+		String greeting = text + name + blank
+		
+	}
+}

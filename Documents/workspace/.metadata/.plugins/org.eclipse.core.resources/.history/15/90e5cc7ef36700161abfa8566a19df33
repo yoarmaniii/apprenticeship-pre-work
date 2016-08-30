@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+
+public class Reverse {
+	public static void main(String[] args) {
+	
+	//Create Scanner object	
+	Scanner scanner = new Scanner(System.in);
+	
+	//wait for user input
+	System.out.println("Hello Human, type four numbers to be reversed now!: ");
+	
+	//user inputs original number
+	int original = scanner.nextInt();
+	
+	int reverse = 0;
+	
+	int remainder;
+	
+	//
+	while (original !=0) {
+		remainder = original % 10;
+		reverse = reverse * 10 + remainder;
+		original = original / 10;
+	}
+	
+	System.out.println("Human, You entered: " + reverse + " Proceed with caution!! ");
+	
+	
+	
+	}
+	}

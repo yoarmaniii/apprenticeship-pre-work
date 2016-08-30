@@ -1,0 +1,10 @@
+public class Applica {
+	public static void main(String[] args) {
+		
+		int i;
+		for(int = 0;  i < 5; i++) {
+			
+			System.out.println("hello");
+		}
+	}
+}

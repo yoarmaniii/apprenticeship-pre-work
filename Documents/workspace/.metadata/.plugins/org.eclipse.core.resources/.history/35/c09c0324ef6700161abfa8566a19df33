@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+
+public class Reverse {
+	public static void main(String[] args) {
+		
+	Scanner input = new Scanner(System.in);
+	
+	String line = input.nextLine();
+	System.out.println("Human, enter four numbers please: ");
+	
+	System.out.println(" Human, You entered: " + line);
+	
+	}
+	}

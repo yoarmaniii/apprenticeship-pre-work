@@ -1,0 +1,14 @@
+public class Applica {
+	public static void main(String[] args) {
+		
+		int myInt = 34;
+		
+		if ( myInt < 35) {	
+		System.out.println(" yes that is correct !");	
+		}
+		else if (myInt > 36){
+			System.out.println("No thats not correct !");
+		}
+		}
+}
+		
